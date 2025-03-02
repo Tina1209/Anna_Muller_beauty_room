@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt Anna Müller Beauty Room</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <input type="checkbox" id="menuToggle" class="menu-toggle" />
+      <label for="menuToggle" class="menu-icon"
+        ><div class="trigger">
+          <svg
+            class="bars"
+            viewBox="0 0 100 100"
+            onclick="this.classList.toggle('active')"
+          >
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272"
+            ></path>
+            <path
+              class="line middle"
+              d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272"
+            ></path>
+            <path
+              class="line bottom"
+              d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272"
+            ></path>
+          </svg></div
+      ></label>
+
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="Bilder/logo.png"
+            alt="Logo Anna Müller Beauty Room"
+            aria-label="Logo Anna Müller Beauty Room"
+            loading="lazy"
+        /></a>
+      </div>
+
+      <div class="termin-button">
+        <a href="tel:+1234567890"> Termin </a>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="team.html">Team</a></li>
+        <li class="nav-item"><a href="leistungen.html">Leistungen</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <header class="title_first kontakt_title_first_bg">
+      <div class="title_first_hero">
+        <h1>Fragen, Anregungen, Wünsche? <br> Wir sind für Sie da.</h1>
+      </div>
+    </header>
+    <main>
+      <div class="main_container">
+        <h2>Haben Sie Fragen oder möchten Sie einen Termin vereinbaren?</h2>
+        <p>
+          Wir freuen uns darauf, von Ihnen zu hören! Füllen Sie einfach das
+          untenstehende Formular aus, und unser Team wird sich so schnell wie
+          möglich mit Ihnen in Verbindung setzen.
+        </p>
+        <p>
+          Ob Beratung, Terminvereinbarung oder allgemeine Fragen – wir sind für
+          Sie da!
+        </p>
+
+        <form class="contact-form">
+          <h3>KONTAKTFORMULAR</h3>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ihr Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-Mail-Adresse</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ihre E-Mail-Adresse"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telefonnummer</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Ihre Telefonnummer"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Nachricht</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Ihre Nachricht"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="cta-button">Nachricht senden</button>
+        </form>
+
+        <p>
+          Unser Friseursalon befindet sich in zentraler Lage in der
+          Brandenburger Str. 25, und ist sowohl für Anwohner von Potsdam als
+          auch für Kundinnen und Kunden aus der Umgebung bestens erreichbar. Die
+          verkehrsgünstige Lage ermöglicht eine bequeme Anreise mit öffentlichen
+          Verkehrsmitteln.
+        </p>
+        <p>
+          Die nächstgelegenen Haltestellen sind Platz der Einhait und Potsdam,
+          Brandenburger Straße.
+        </p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.87838900541652!2d13.055293148757135!3d52.40052829223369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8f5d077f71041%3A0xeb995439d7fce6e5!2sBrandenburger%20Str.%2025%2C%2014467%20Potsdam!5e0!3m2!1sde!2sde!4v1732632274762!5m2!1sde!2sde"
+            width="100%"
+            height="400px"
+            style="border: 0; border-radius: 20px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="wrapper_contact_info">
+          <div class="contact-info">
+            <h3>Weitere Kontaktinformationen</h3>
+            <p><strong>Telefon:</strong> +49 (123) 456-7890</p>
+            <p><strong>E-Mail:</strong> info@anna-müller-beaty-room.de</p>
+            <p><strong>Adresse:</strong> Weidenhof 21, Potsdam, Deutschland</p>
+          </div>
+
+          <div class="opening-hours">
+            <h3>Öffnungszeiten</h3>
+            <p> Montag - Freitag: 9:00 - 19:00 Uhr</p>
+            <p>Samstag: 10:00 - 16:00 Uhr</p>
+            <p>Sonntag: Geschlossen</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="info_list">
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="#">Impressum</a></li>
+        <li><a href="#">Datenschutz</a></li>
+      </ul>
+      <div class="info_link">
+        <a href="#"
+          ><img
+            src="Bilder/phone-call.png"
+            aria-label="phone ikon"
+            loading="lazy"
+            alt="call"
+        /></a>
+        <a href="#"
+          ><img
+            src="Bilder/instagram.png"
+            aria-label="instagram ikon"
+            loading="lazy"
+            alt="instagram"
+        /></a>
+        <a href="#"
+          ><img
+            src="Bilder/facebook.png "
+            aria-label="facebook ikon"
+            loading="lazy"
+            alt="facebook"
+        /></a>
+      </div>
+      <p>© Anna Müller Beauty Room 2019–2024</p>
+      <div class="button_down">
+        <p><a href="#top">&#11014;</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
